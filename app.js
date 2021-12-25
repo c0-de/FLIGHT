@@ -3,8 +3,8 @@ const express = require("express");
 
 const app = express();
 const amadeus = new Amadeus({
-  clientId: 'Aq8eiHkY3L9TUavhVLJhRZ9cGA5fg29A',
-  clientSecret: 'EKJAEvmX2NQXIopu',
+  clientId: 'YOUR_API_KEY',
+  clientSecret: 'YOUR_API_SECRET',
 });
 const port = 3000;
 
